@@ -1,0 +1,24 @@
+{
+  "name": "com.autopilot.unity",
+  "displayName": "Unity Autopilot",
+  "description": "Unity Autopilot is an AI-powered tool integrated into the Unity Editor, allowing developers and creators to control the editor using natural language commands—speeding up workflows by automating tasks described in plain English.",
+  "keywords": [],
+  "version": "0.4.0",
+  "unity": "2022.3",
+  "documentationUrl": "https://github.com/bhadrik/unity-autopilot",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "repository": "https://github.com/bhadrik/unity-autopilot"
+  },
+  "author": {
+    "name": "Bhadrik Jagad",
+    "url": "https://github.com/bhadrik"
+  },
+  "dependencies": {
+    "com.openai.unity": "https://github.com/bhadrik/com.openai.unity.git?path=/OpenAI/Packages/com.openai.unity#main",
+    "com.utilities.rest": "3.3.3",
+    "com.utilities.websockets": "1.0.3",
+    "com.utilities.encoder.wav": "2.2.2"
+  }
+}
