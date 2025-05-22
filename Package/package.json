@@ -4,7 +4,7 @@
   "description": "Unity Autopilot is an AI-powered tool integrated into the Unity Editor, allowing developers and creators to control the editor using natural language commands—speeding up workflows by automating tasks described in plain English.",
   "keywords": [],
   "version": "0.4.0",
-  "unity": "2022.3",
+  "unity": "6000.0",
   "documentationUrl": "https://github.com/bhadrik/unity-autopilot",
   "license": "MIT",
   "repository": {
