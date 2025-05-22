@@ -16,7 +16,7 @@
     "url": "https://github.com/bhadrik"
   },
   "dependencies": {
-    "com.openai.unity": "https://github.com/bhadrik/com.openai.unity.git?path=/OpenAI/Packages/com.openai.unity#main",
+    "com.openai.unity": "8.6.6",
     "com.utilities.rest": "3.3.3",
     "com.utilities.websockets": "1.0.3",
     "com.utilities.encoder.wav": "2.2.2"
