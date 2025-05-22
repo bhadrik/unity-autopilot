@@ -31,7 +31,7 @@
 
 ### Requirements
 
-- Unity **2021.3 LTS** or later
+- Unity **6000.0.25f1 LTS** or later
 - Internet connection (for online LLMs)
 - API key for your preferred language model provider (e.g., OpenAI, Azure, local)
 
