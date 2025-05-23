@@ -153,6 +153,8 @@ namespace UnityAutopilot.Tools.Command
             string contents
         )
         {
+            await UniTask.Yield();
+
             // Check if shader already exists
             if (File.Exists(fullPath))
             {

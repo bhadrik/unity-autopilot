@@ -31,7 +31,7 @@
 
 ### Requirements
 
-- Unity **6000.0.25f1 LTS** or later
+- Unity **2022.3 LTS** or later
 - Internet connection (for online LLMs)
 - API key for your preferred language model provider (e.g., OpenAI, Azure, local)
 
@@ -39,47 +39,14 @@
 
 ## 📦 Installation
 
-### Step 1 – Add OpenUPM as a scoped registry
-
-1. Open `Edit > Project Settings > Package Manager > Scoped Registries`
-2. Click **Add** and fill in the following:
-   - **Name**: `OpenUPM`
-   - **URL**: `https://package.openupm.com`
-   - **Scope(s)**:
-     - `com.cysharp.unitask`
-     - `com.openai`
-     - `com.utilities`
-
-### Step 2 – Install required dependencies
-
-Open Unity's **Package Manager**, switch to `My Registries`, and install:
-
-#### From scoped registry:
-- `com.utilities.rest` – version `3.3.3`
-- `com.utilities.websockets` – version `1.0.3`
-- `com.utilities.encoder.wav` – version `2.2.2`
-- `com.cysharp.unitask` - version `2.5.10`
-
-#### From Git URL:
-- **OpenAI for Unity**  
-[https://github.com/bhadrik/com.openai.unity.git?path=/OpenAI/Packages/com.openai.unity#main](https://github.com/bhadrik/com.openai.unity.git?path=/OpenAI/Packages/com.openai.unity#main)
-
-
-### Step 3 – Install Unity Autopilot
+### Step 1 – Install Unity Autopilot
 
 - **Install the Unity Autopilot package via Git URL**  
    [https://github.com/bhadrik/unity-autopilot.git?path=/Package#main](https://github.com/bhadrik/unity-autopilot.git?path=/Package#main)
 
-### Step 4 - Run Autopilot
+### Step 2 - Run Autopilot
 
 - **Window location:** `Window/Autopilot/Chat`
----
-
-### Scoped registry
-![Scoped Registry Configuration](Info/scpoed-registory.png)
-### Package manager
-![Scoped Registry Configuration](Info/package-manager-installed.png)
-
 
 <br>
 
@@ -101,7 +68,7 @@ Newtonsoft.Json.Schema is a .NET library used for validating JSON data against J
 
 ## com.openai.unity
 
-This is an unofficial OpenAI package to interact with the OpenAI API.
+This is an unofficial OpenAI package to interact with the OpenAI API. This project contain modified version of this package.
 
 ### About com.openai.unity
 
@@ -110,7 +77,6 @@ This package is a modified version of the original repository available at [Rage
 ### Useful Links
 
 - Original Repository: [https://github.com/RageAgainstThePixel/com.openai.unity](https://github.com/RageAgainstThePixel/com.openai.unity)
-- Forked Repository: [https://github.com/bhadrik/com.openai.unity](https://github.com/bhadrik/com.openai.unity)
 
 <br>
 

@@ -1,0 +1,17 @@
+{
+    "name": "Utilities.Encoding.Wav",
+    "rootNamespace": "Utilities.Encoding.Wav",
+    "references": [
+        "GUID:cb9aeb0e932da8248bf2c2569cb72ccd",
+        "GUID:90f419042d0ce634c9cc1be15348b397"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

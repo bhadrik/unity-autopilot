@@ -1,0 +1,26 @@
+{
+  "name": "com.utilities.extensions",
+  "displayName": "Utilities.Extensions",
+  "description": "Common extensions for Unity types (UPM)",
+  "keywords": [],
+  "version": "1.2.0",
+  "unity": "2021.3",
+  "documentationUrl": "https://github.com/RageAgainstThePixel/com.utilities.extensions#documentation",
+  "changelogUrl": "https://github.com/RageAgainstThePixel/com.utilities.extensions/releases",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "repository": "https://github.com/RageAgainstThePixel/com.utilities.extensions.git"
+  },
+  "author": {
+    "name": "Stephen Hodgson",
+    "url": "https://github.com/StephenHodgson"
+  },
+  "publishConfig": {
+    "registry": "https://package.openupm.com"
+  },
+  "dependencies": {
+    "com.unity.modules.physics": "1.0.0",
+    "com.unity.ugui": "1.0.0"
+  }
+}

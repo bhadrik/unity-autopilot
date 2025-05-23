@@ -1,0 +1,27 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="left: 16px; top: 16px; right: 16px; bottom: 16px; position: absolute;">
+        <ui:VisualElement style="flex-direction: row; align-self: stretch; align-items: stretch; justify-content: space-between;">
+            <ui:Label name="status-label" text="Status: &lt;color=red&gt;Closed&lt;/color&gt;" style="flex-grow: 1; align-items: flex-start; align-self: flex-start;" />
+            <ui:Label name="fps-label" text="FPS: &lt;color=green&gt;1000&lt;/color&gt;" style="flex-grow: 1; align-items: flex-start; align-self: flex-start;" />
+        </ui:VisualElement>
+        <ui:TextField name="address-text-field" label="Address" value="wss://echo.websocket.events" keyboard-type="URL" multiline="false" picking-mode="Ignore" />
+        <ui:VisualElement style="flex-direction: row;">
+            <ui:Button name="connect-button" text="Connect" style="flex-grow: 1;" />
+            <ui:Button name="disconnect-button" text="Disconnect" style="flex-grow: 1;" />
+        </ui:VisualElement>
+        <ui:TextField name="send-message-text-field" picking-mode="Ignore" label="Send Message:" value="Hello World!" multiline="true" />
+        <ui:VisualElement name="send-message-button-group" style="flex-direction: row;">
+            <ui:Button name="send-text-button" text="Send Text" parse-escape-sequences="true" style="flex-grow: 1;" />
+            <ui:Button name="send-bytes-button" text="Send Bytes" parse-escape-sequences="true" style="flex-grow: 1;" />
+            <ui:Button name="send-text-1000-button" text="Send Text x100" parse-escape-sequences="true" style="flex-grow: 1;" />
+            <ui:Button name="send-bytes-1000-button" text="Send Bytes x100" parse-escape-sequences="true" style="flex-grow: 1;" />
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-direction: row;">
+            <ui:Toggle name="log-messages-toggle" label="Log Messages" value="true" style="flex-grow: 1;" />
+            <ui:Label name="send-count-label" text="Send Count: 0" parse-escape-sequences="true" style="flex-grow: 1; align-items: flex-start; align-self: flex-start;" />
+            <ui:Label name="receive-count-label" text="Receive Count: 0" parse-escape-sequences="true" style="flex-grow: 1; align-items: flex-start; align-self: flex-start;" />
+        </ui:VisualElement>
+        <ui:Button name="clear-logs-button" text="Clear Messages" parse-escape-sequences="true" />
+        <ui:ListView name="message-list-view" focusable="true" style="flex-grow: 1;" />
+    </ui:VisualElement>
+</ui:UXML>

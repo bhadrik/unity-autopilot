@@ -1,0 +1,29 @@
+{
+    "name": "Utilities.Encoding.Wav.Tests",
+    "rootNamespace": "Utilities.Encoding.Wav.Tests",
+    "references": [
+        "GUID:27619889b8ba8c24980f49ee34dbb44a",
+        "GUID:0acc523941302664db1f4e527237feb3",
+        "GUID:cb9aeb0e932da8248bf2c2569cb72ccd",
+        "GUID:b3684f8bf398baf4784a21b6849e87c0",
+        "GUID:f159d7adc61c4b24a90cc24a50c8a1f9",
+        "GUID:90f419042d0ce634c9cc1be15348b397",
+        "GUID:01b23193f4c11e94fa0019bbf080c4da",
+        "GUID:84d728fade78fef4eb401cbd76f1089a"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

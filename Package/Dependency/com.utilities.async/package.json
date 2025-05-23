@@ -1,0 +1,33 @@
+{
+  "name": "com.utilities.async",
+  "displayName": "Utilities.Async",
+  "description": "A set of utilities to ease the use of async methods in Unity.",
+  "keywords": [],
+  "version": "2.2.2",
+  "unity": "2020.3",
+  "documentationUrl": "https://github.com/RageAgainstThePixel/com.utilities.async#documentation",
+  "changelogUrl": "https://github.com/RageAgainstThePixel/com.utilities.async/releases",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "repository": "https://github.com/RageAgainstThePixel/com.utilities.async.git"
+  },
+  "author": "Stephen Hodgson",
+  "url": "https://github.com/StephenHodgson",
+  "dependencies": {
+    "com.unity.editorcoroutines": "1.0.0",
+    "com.unity.test-framework": "1.4.2",
+    "com.unity.nuget.mono-cecil": "1.11.4"
+  },
+  "samples": [
+    {
+      "displayName": "Demo",
+      "description": "Contains demo async behaviour and scene",
+      "path": "Samples~/Demo"
+    }
+  ],
+  "hideInEditor": true,
+  "publishConfig": {
+    "registry": "https://package.openupm.com"
+  }
+}

@@ -1,0 +1,20 @@
+{
+    "name": "OpenAI",
+    "rootNamespace": "OpenAI",
+    "references": [
+        "GUID:cb9aeb0e932da8248bf2c2569cb72ccd",
+        "GUID:90f419042d0ce634c9cc1be15348b397",
+        "GUID:84d728fade78fef4eb401cbd76f1089a",
+        "GUID:8049cb3f6ec985c4380f1e6d15b56d05",
+        "GUID:7529f23d4e698a1499e765b8f0fe56cf"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

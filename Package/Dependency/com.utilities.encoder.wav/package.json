@@ -1,0 +1,34 @@
+{
+  "name": "com.utilities.encoder.wav",
+  "displayName": "Utilities.Encoder.Wav",
+  "description": "Simple library for WAV encoding support.",
+  "keywords": [],
+  "version": "2.2.2",
+  "unity": "2021.3",
+  "documentationUrl": "https://github.com/RageAgainstThePixel/com.utilities.encoder.wav#documentation",
+  "changelogUrl": "https://github.com/RageAgainstThePixel/com.utilities.encoder.wav/releases",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "repository": "https://github.com/RageAgainstThePixel/com.utilities.encoder.wav.git"
+  },
+  "author": {
+    "name": "Stephen Hodgson",
+    "url": "https://github.com/StephenHodgson"
+  },
+  "dependencies": {
+    "com.utilities.audio": "2.2.3"
+  },
+  "samples": [
+    {
+      "displayName": "WavRecording",
+      "description": "Contains sample scene with WavRecordingBehaviour that will progressively save clip to disk as it records, then plays back the recording.",
+      "path": "Samples~/WavRecording"
+    }
+  ],
+  "publishConfig": {
+    "registry": "https://package.openupm.com"
+  },
+  "hideInEditor": false,
+  "type": "library"
+}

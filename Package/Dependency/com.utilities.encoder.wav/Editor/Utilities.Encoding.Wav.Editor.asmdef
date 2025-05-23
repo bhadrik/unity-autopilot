@@ -1,0 +1,19 @@
+{
+    "name": "Utilities.Encoding.Wav.Editor",
+    "rootNamespace": "Utilities.Encoding.Wav.Editor",
+    "references": [
+        "GUID:90f419042d0ce634c9cc1be15348b397",
+        "GUID:84d728fade78fef4eb401cbd76f1089a"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

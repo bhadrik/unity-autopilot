@@ -1,0 +1,16 @@
+{
+    "name": "Utilities.WebSockets",
+    "rootNamespace": "Utilities.WebSockets",
+    "references": [
+        "GUID:cb9aeb0e932da8248bf2c2569cb72ccd"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,21 @@
+{
+    "name": "OpenAI.Editor",
+    "rootNamespace": "OpenAI.Editor",
+    "references": [
+        "GUID:ab5c4c641b4a89149bc19bdb01ee04db",
+        "GUID:8049cb3f6ec985c4380f1e6d15b56d05",
+        "GUID:38b436ece0aede443bd6338045829c69",
+        "GUID:8614fcbab1611a743be5cf3f718c603e"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
